@@ -14,6 +14,8 @@
     }
 </script>
 
+asdigtyasuhyduiashdw
+
 <div class="text-center mt-3">
 <input class="form-control" readonly bind:value={display}/>
 <table class="table table-sm table-borderless">
