@@ -66,12 +66,20 @@
     <input class="form-control" readonly bind:value={display}/>
     <table class="table table-sm table-borderless">
         <tbody>
-
             <tr>
                 <td><button type="button" class="btn btn-secondary w-100" onclick={() => clear()}>C</button></td>
+                <td><button type="button" class="btn btn-secondary w-100" onclick={round}>Arred</button></td>
+                <td><button type="button" class="btn btn-secondary w-100" onclick={log10}>log₁₀</button></td>
+                <td><button type="button" class="btn btn-warning w-100" onclick={() => press('%')}>%</button></td>
+                <td><button type="button" class="btn btn-warning w-100" onclick={sqrt}>√x</button></td>
+            </tr>
+
+            <tr>
+                <td><button type="button" class="btn btn-secondary w-100" onclick={invertSignal}>±</button></td>
                 <td><button type="button" class="btn btn-secondary w-100" onclick={() => press('(')}>(</button></td>
                 <td><button type="button" class="btn btn-secondary w-100" onclick={() => press(')')}>)</button></td>
                 <td><button type="button" class="btn btn-warning w-100" onclick={() => press('/')}>/</button></td>
+                <td><button type="button" class="btn btn-warning w-100" onclick={square}>x²</button></td>
             </tr>
             <tr>
                 <td><button type="button" class="btn btn-dark w-100" onclick={() => press(7)}>7</button></td>
@@ -97,17 +105,6 @@
                 <td><button type="button" class="btn btn-dark w-100" onclick={() => press(0)}>0</button></td>
                 <td><button type="button" class="btn btn-dark w-100" onclick={() => press('.')}>.</button></td>
                 <td><button type="button" class="btn btn-warning w-100" onclick={() => calc()}>=</button></td>
-            </tr>
-            <tr>
-                <td><button type="button" class="btn btn-secondary w-100" onclick={invertSignal}>±</button></td>
-                <td><button type="button" class="btn btn-secondary w-100" onclick={square}>x²</button></td>
-                <td><button type="button" class="btn btn-secondary w-100" onclick={sqrt}>√x</button></td>
-                <td><button type="button" class="btn btn-secondary w-100" onclick={round}>Arred</button></td>
-            </tr>
-            <tr>
-                <td><button type="button" class="btn btn-secondary w-100" onclick={log10}>log₁₀</button></td>
-                <td><button type="button" class="btn btn-warning w-100" onclick={() => press('%')}>%</button></td>
-                <td colspan="2"></td>
             </tr>
         </tbody>
     </table>
