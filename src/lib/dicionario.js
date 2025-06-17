@@ -7,13 +7,6 @@ export const dicionario = [
         ]
     },
     {
-        palavra: 'baleia',
-        definicoes: [
-            'Grande mamífero marinho, conhecido por seu tamanho e inteligência.',
-            'Usado figurativamente para descrever algo ou alguém muito grande.'
-        ]
-    },
-    {
         palavra: 'abstrato',
         definicoes: [
             'Que não é concreto; que pertence ao domínio das ideias.'
@@ -62,9 +55,29 @@ export const dicionario = [
         ]
     },
     {
+        palavra: 'bacia',
+        definicoes:[
+            'Recipiente grande e aberto, usado para conter líquidos ou alimentos.',
+            'Usado figurativamente para descrever uma região geográfica que drena água para um rio ou lago.'
+        ]
+    },
+    {
+        palavra: 'baleia',
+        definicoes: [
+            'Grande mamífero marinho, conhecido por seu tamanho e inteligência.',
+            'Usado figurativamente para descrever algo ou alguém muito grande.'
+        ]
+    },
+    {
         palavra: 'benevolente',
         definicoes: [
             'Que demonstra boa vontade e generosidade.'
+        ]
+    },
+    {
+        palavra: 'breve',
+        definicoes: [
+            'Que é curto em duração ou extensão; conciso.'
         ]
     },
     {
@@ -242,6 +255,37 @@ export const dicionario = [
         ]
     },
     {
+        palavra: 'genuíno',
+        definicoes: [
+            'Autêntico, verdadeiro, sem falsificação.'
+        ]
+    },
+    {
+        palavra: 'gesticulado',
+        definicoes: [
+            'Que se expressa por gestos; não verbal.'
+        ]
+    },
+    {
+        palavra: 'gratificante',
+        definicoes: [
+            'Que proporciona satisfação ou prazer.'
+        ]
+    },
+    {
+        palavra: 'gregar',
+        definicoes: [
+            'Que vive em grupos ou sociedades; sociável.'
+        ]
+    },
+    {
+        palavra: 'guindaste',
+        definicoes: [
+            'Máquina usada para levantar e mover objetos pesados.',
+            'Usado figurativamente para descrever algo que eleva ou apoia.'
+        ]
+    },
+    {
         palavra: 'heurístico',
         definicoes: [
             'Que leva à descoberta por tentativa e erro.'
@@ -251,6 +295,12 @@ export const dicionario = [
         palavra: 'hipótese',
         definicoes: [
             'Suposição feita para iniciar uma investigação.'
+        ]
+    },
+    {
+        palavra: 'homogêneo',
+        definicoes: [
+            'Que é uniforme ou de mesma natureza.'
         ]
     },
     {
@@ -356,9 +406,63 @@ export const dicionario = [
         ]
     },
     {
+        palavra: 'jubiloso',
+        definicoes: [
+            'Cheio de alegria; radiante.'
+        ]
+    },
+    {
+        palavra: 'jurídico',
+        definicoes: [
+            'Relativo ao direito ou à justiça.'
+        ]
+    },
+    {
+        palavra: 'justaposição',
+        definicoes: [
+            'Colocação lado a lado de elementos diferentes.'
+        ]
+    },
+    {
+        palavra: 'juvenil',
+        definicoes: [
+            'Relativo à juventude; jovem.'
+        ]
+    },
+    {
+        palavra: 'lacônico',
+        definicoes: [
+            'Que se expressa de forma breve e concisa.'
+        ]
+    },
+    {
+        palavra: 'languidez',
+        definicoes: [
+            'Estado de fraqueza ou falta de energia.'
+        ]
+    },
+    {
+        palavra: 'leal',
+        definicoes: [
+            'Fiel, que demonstra lealdade.'
+        ]
+    },
+    {
         palavra: 'lúdico',
         definicoes: [
             'Relacionado ao jogo ou brincadeira.'
+        ]
+    },
+    {
+        palavra: 'luminar',
+        definicoes: [
+            'Pessoa que se destaca em uma área de conhecimento; especialista.'
+        ]
+    },
+    {
+        palavra: 'lúcido',
+        definicoes: [
+            'Clareza de pensamento; racional.'
         ]
     },
     {
@@ -662,9 +766,34 @@ export const dicionario = [
         ]
     },
     {
+        palavra: 'troçar',
+        definicoes: [
+            'Fazer brincadeiras ou zombarias de alguém ou algo.'
+        ]
+    },
+    {
         palavra: 'utópico',
         definicoes: [
             'Ideal, mas difícil de realizar.'
+        ]
+    },
+    {
+        palavra: 'unânime',
+        definicoes: [
+            'Que é aceito por todos; sem discordância.'
+        ]
+    },
+    {
+        palavra: 'unívoco',
+        definicoes: [
+            'Que tem um único significado; claro e preciso.'
+        ]
+    },
+    {
+        palavra: 'universo',
+        definicoes: [
+            'Totalidade de tudo o que existe; cosmos.',
+            'Usado figurativamente para descrever um conjunto completo de ideias ou conceitos.'
         ]
     },
     {
@@ -684,5 +813,26 @@ export const dicionario = [
         definicoes: [
             'Que pode ser ferido ou prejudicado.'
         ]
-    }
+    },
+    {
+        palavra: 'zênite',
+        definicoes: [
+            'Ponto mais alto ou culminante de algo.',
+            'Usado figurativamente para descrever o auge de uma carreira ou sucesso.'
+        ]
+    },
+    {
+        palavra: 'zíper',
+        definicoes: [
+            'Fecho de correr usado em roupas e acessórios.',
+            'Expressão coloquial para algo que fecha ou une rapidamente.'
+        ]
+    },
+    {
+        palavra: 'zombar',
+        definicoes: [
+            'Fazer troça ou rir de alguém ou algo.',
+            'Usado para descrever uma atitude sarcástica ou irônica.'
+        ]
+    },
 ];       
