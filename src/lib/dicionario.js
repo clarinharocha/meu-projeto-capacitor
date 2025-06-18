@@ -496,6 +496,18 @@ export const dicionario = [
         ]
     },
     {
+        palavra: 'nomenclatura',
+        definicoes: [
+            'Sistema de nomes usados em uma ciência ou arte.'
+        ]
+    },
+    {
+        palavra: 'notório',
+        definicoes: [
+            'Bem conhecido, geralmente por algo negativo.'
+        ]
+    },
+    {
         palavra: 'obliterar',
         definicoes: [
             'Eliminar completamente; apagar.'
