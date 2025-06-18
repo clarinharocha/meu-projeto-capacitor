@@ -1,30 +1,33 @@
 <script>
-    import { dicionario } from '$lib/dicionario.js';
-    import { page } from '$app/stores';
-    import { onMount } from 'svelte';
-  
-    let termoSelecionado;
-  
-    $: palavraParam = $page.params.palavra;
-  
-    onMount(() => {
-      termoSelecionado = dicionario.find(t => t.palavra === palavraParam);
-    });
-  </script>
-  
+  import { dicionario } from '$lib/dicionario.js';
+  import { page } from '$app/stores';
+  import { onMount } from 'svelte';
+
+  let termoSelecionado;
+
+  $: palavraParam = $page.params.palavra;
+
+  onMount(() => {
+    termoSelecionado = dicionario.find(t => t.palavra === palavraParam);
+  });
+</script>
+
+<div class="container my-5">
   {#if termoSelecionado}
-    <h1>{termoSelecionado.palavra}</h1>
+    <h1 class="display-4 text-capitalize">{termoSelecionado.palavra}</h1>
     <hr />
-    <ol>
+    <ol class="list-group list-group-numbered">
       {#each termoSelecionado.definicoes as definicao}
-        <li>{definicao}</li>
+        <li class="list-group-item">{definicao}</li>
       {/each}
     </ol>
   {:else}
-    <p>Palavra não encontrada.</p>
+    <div class="alert alert-warning" role="alert">
+      Palavra não encontrada.
+    </div>
   {/if}
-  
-  <br />
-  <a href="/dicionario">
-    <button type="button" class="btn btn-secondary">Voltar ao dicionário</button>
-</a>
+
+  <div class="mt-4">
+    <a href="/dicionario" class="btn btn-secondary">Voltar ao dicionário</a>
+  </div>
+</div>
